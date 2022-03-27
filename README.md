@@ -18,7 +18,8 @@
 
 ## Single Responsibility Principle
 
-- Uma classe, módulo, função, etc. Deve ter um e apenas um motibo para mudar
+- Uma classe, módulo, função, etc. Deve ter um e apenas um motivo para mudar
+  - Robert C. Martin aka Uncle Bob
 
 ## Open/Closed Principle
 
