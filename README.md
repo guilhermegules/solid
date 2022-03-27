@@ -32,3 +32,13 @@
   - Barbara Liskov
 - Embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
 - O Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema
+
+## Interface Segregation Principle
+
+- Uma classe não deveria ser forçada a depender de métodos que não utilizará
+  - Robert C. Martin aka Uncle Bob
+
+## Dependency Inversion Principle
+
+- Abstrações não devem depender de implementações. Implementações devem depender de abstrações
+  - Robert C. Martin aka Uncle Bob
