@@ -10,7 +10,7 @@ export class SalaryPercentValidation implements AdjustValidation {
     }
   }
 
-  getPercentageChange(oldValue: number, newValue: number) {
+  private getPercentageChange(oldValue: number, newValue: number) {
     const decreasedValue = oldValue - newValue;
 
     return ((decreasedValue / oldValue) * 100) / 100;

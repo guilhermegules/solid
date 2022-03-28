@@ -2,7 +2,10 @@
   "name": "solid-with-typescript",
   "version": "1.0.0",
   "description": "Applying solid with typescript",
-  "scripts": {},
+  "scripts": {
+    "start": "",
+    "build": "tsc ./src/main.ts"
+  },
   "keywords": [
     "SOLID",
     "TypeScript"
@@ -11,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
   }
 }

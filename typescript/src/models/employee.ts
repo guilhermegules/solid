@@ -14,6 +14,10 @@ export class Employee {
     this._lastReadjustDate = new Date();
   }
 
+  public promote(newRole: Role) {
+    this.personalData.role = newRole;
+  }
+
   get personalData() {
     return this._personalData;
   }
