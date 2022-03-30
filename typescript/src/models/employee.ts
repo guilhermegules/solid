@@ -7,6 +7,7 @@ export class Employee {
 
   constructor(name: string, cpf: string, role: Role, salary: number) {
     this._personalData = new PersonalData(name, cpf, role, salary);
+    this._lastReadjustDate = new Date();
   }
 
   public readjustSalary(salary: number) {
