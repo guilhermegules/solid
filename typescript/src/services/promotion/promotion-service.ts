@@ -22,11 +22,11 @@ export class PromotionService implements TaxableReadjust {
   }
 
   taxValue(): number {
-    throw new Error("Method not implemented.");
+    return this._value * 0.2;
   }
 
   value(): number {
-    return this._value;
+    return this._value * 2;
   }
 
   date(): Date {
@@ -40,8 +40,6 @@ export class PromotionService implements TaxableReadjust {
       case Role.ANALYST:
         return Role.SPECIALIST;
       case Role.SPECIALIST:
-        return Role.MANAGER;
-      case Role.MANAGER:
         return Role.MANAGER;
       default:
         throw new Error("Not a valid role");
