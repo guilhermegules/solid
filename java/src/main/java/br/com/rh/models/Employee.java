@@ -22,6 +22,10 @@ public class Employee {
         return lastReadjustDate;
     }
 
+    public void setLastReadjustDate(LocalDate lastReadjustDate) {
+        this.lastReadjustDate = lastReadjustDate;
+    }
+
     public void promote(Role newRole) {
         this.personalData.setRole(newRole);
     }

@@ -16,7 +16,7 @@ public class AnueniumService implements Readjust {
 
     @Override
     public BigDecimal value() {
-        return this.value;
+        return this.value.multiply(new BigDecimal(0.2));
     }
 
     @Override
