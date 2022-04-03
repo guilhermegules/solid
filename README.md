@@ -1,44 +1,46 @@
 # S.O.L.I.D
 
-## Coesão
+> Solid is a set of principles that help us to build object-oriented applications in a more organized, scalable and responsibly defined way.
 
-- Uma classe coesa faz bem uma única coisa
+## Cohesion
 
-## Encapsulamento
+- A cohesive class do one thing well
 
-- Getters e Setters não são formas eficientes de aplicar encapsulamento
-- É interessante fornecer acesso apenas ao que é necessário em nossas classes
-- O encapsulamento torna o uso das nossas classes mais fácil e intuitivo
+## Encapsulation
 
-## Acoplamento
+- Getters and setters are not efficient ways of applying encapsulation
+- It's good to give access only for to the needed features of our classes
+- Encapsulation makes our classes simpler
 
-- Acoplamento é a dependência entre classes
-- Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
-- Devemos controlar o nível de acoplamento na nossa aplicação
+## Coupling
+
+- Coupling is the dependency between classes
+- Coupling is not always bad, and that it is impossible to create a system without any coupling
+- We must control the coupling level in our application
 
 ## Single Responsibility Principle
 
-- Uma classe, módulo, função, etc. Deve ter um e apenas um motivo para mudar
+- A class should have one, and only one, reason to change.
   - Robert C. Martin aka Uncle Bob
 
 ## Open/Closed Principle
 
-- Entidades de software (classes, módulos, funções, etc) devem estar abertas para extensão, porém fechadas para modificação
+- Software entities (classes, modules, functions, etc.) must be open for extension, but closed for modification
   - Bertrand Meyer
 
 ## Liskov Substitution Principle
 
-- Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) deve ser verdadeiro para objetos y de tipo S, onde S é um subtipo de T
+- If q(x) is a provable property of objects and of type T, then q(y) must be true for objects and of type S, where S is a subtype of T
   - Barbara Liskov
-- Embora a herança favoreça o reaproveitamento de código, ela pode trazer efeitos colaterais quando não utilizada da maneira correta;
-- O Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema
+- Although inheritance favors code reuse, it can have side effects when not used correctly
+- Liskov Substitution Principle (LSP) says that we should be able to replace base classes with their derived classes anywhere, no problem
 
 ## Interface Segregation Principle
 
-- Uma classe não deveria ser forçada a depender de métodos que não utilizará
+- A class shouldn't be forced to rely on methods it won't use
   - Robert C. Martin aka Uncle Bob
 
 ## Dependency Inversion Principle
 
-- Abstrações não devem depender de implementações. Implementações devem depender de abstrações
+- Abstractions should not depend on implementations. Implementations must rely on abstractions
   - Robert C. Martin aka Uncle Bob

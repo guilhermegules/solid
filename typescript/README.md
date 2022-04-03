@@ -7,9 +7,5 @@ npm install # install all dependencies
 ```
 
 ```bash
-npm build # build application
-```
-
-```bash
-npm start # start application in dev mode
+npm test # run all the unit tests
 ```
